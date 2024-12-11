@@ -23,7 +23,7 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 # Настройка базы данных MySQL
 SQLALCHEMY_DATABASE_URL = "mysql+pymysql://isp_p_Komissarov:12345@77.91.86.135/isp_p_Komissarov"
-SECRET_KEY = "153279c820cfc714a3a71fff489100fc8307d93ab6d330684860094216d51ef2"
+SECRET_KEY = "616ffde1fa6cc60c7595cefe73082b2ecd84a1704d9f1868a6915e48e7c60e98"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
